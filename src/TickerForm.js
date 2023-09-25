@@ -9,6 +9,7 @@ function TickerForm({ onDataReceived }) {
     e.preventDefault();
     try {
       const response = await axios.get(`https://marz.pythonanywhere.com/api/dividend-data/?symbol=${symbol}`);
+      // const response = await axios.get(`http://localhost:8000/api/dividend-data/?symbol=${symbol}`);
       const data = response.data;
       onDataReceived(data); // Pass the data to the parent component
     } catch (error) {
