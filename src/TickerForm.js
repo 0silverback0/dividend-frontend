@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, Button, Grid } from '@mui/material'; // Import Material-UI components
+import { TextField, Button, Grid } from '@mui/material';
 import axios from 'axios';
 
 function TickerForm({ onDataReceived }) {
@@ -8,10 +8,9 @@ function TickerForm({ onDataReceived }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get(`https://marz.pythonanywhere.com/api/dividend-data/?symbol=${symbol}`);
-      // const response = await axios.get(`http://localhost:8000/api/dividend-data/?symbol=${symbol}`);
+      const response = await axios.get(`http://localhost:8000/api/dividend-data/?symbol=${symbol}`);
       const data = response.data;
-      onDataReceived(data); // Pass the data to the parent component
+      onDataReceived(data);
     } catch (error) {
       console.error('Error fetching data:', error);
     }
