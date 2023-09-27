@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import TickerForm from './TickerForm';
-import DataTable from './DataTable';
 import Header from './Header';
 import BarChart from './BarChart';
 
@@ -16,7 +15,6 @@ function App() {
       <Header />
       <TickerForm onDataReceived={onDataReceived} />
       <BarChart data={data} />
-      <DataTable data={data} />
     </div>
   );
 }
