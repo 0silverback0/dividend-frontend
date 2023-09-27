@@ -1,8 +1,0 @@
-certifi==2023.5.7
-distlib==0.3.6
-filelock==3.12.2
-mysqlclient==2.2.0
-pipenv==2023.7.11
-platformdirs==3.8.1
-virtualenv==20.24.0
-virtualenv-clone==0.5.7
