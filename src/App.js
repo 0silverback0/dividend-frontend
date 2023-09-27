@@ -3,6 +3,7 @@ import TickerForm from './TickerForm';
 import Header from './Header';
 import BarChart from './BarChart';
 
+//
 function App() {
   const [data, setData] = useState([]);
 
