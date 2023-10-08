@@ -1,16 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { TextField, Button, Grid } from '@mui/material';
 import axios from 'axios';
 
 function TickerForm({ onDataReceived }) {
   const [symbol, setSymbol] = useState('');
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    if (data) {
+      onDataReceived(data);
+    }
+  }, [data, onDataReceived]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get(`https://marz.pythonanywhere.com/api/dividend-data/?symbol=${symbol}`);
-      const data = response.data;
-      onDataReceived(data);
+      const response = await axios.get(`http://localhost:8000/api/dividend-data/?symbol=${symbol}`);
+      const responseData = response.data;
+      setData(responseData);
     } catch (error) {
       console.error('Error fetching data:', error);
     }
@@ -29,6 +36,7 @@ function TickerForm({ onDataReceived }) {
           Fetch Data
         </Button>
       </form>
+      {/* {<BarChart data={data} />} */}
     </Grid>
   );
 }
