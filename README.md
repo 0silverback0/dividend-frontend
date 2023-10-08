@@ -8,15 +8,15 @@ The Dividend Stock Analysis Front-End App is a React-based web application desig
 
 ### Features
 
-- Feature 1: Describe a key feature of your app.
-- Feature 2: Highlight another significant feature.
-- Feature 3: Mention any additional functionalities.
+- Feature 1: Get Historical dividend data and display a chart.
+- Feature 2: Get multiple tickers and compare history.
 
 ### Technologies Used
 
 - React
-- Bootstrap (or any other relevant libraries)
-- [List any other technologies or APIs used]
+- Bootstrap 
+- AlphaAdvantage API
+- yfinance
 
 ## Getting Started
 
