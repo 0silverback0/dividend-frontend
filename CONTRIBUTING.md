@@ -2,46 +2,11 @@
 
 Welcome to dividend-frontend! We appreciate your interest in contributing to our open-source project. By contributing, you help us make dividend-frontend better for everyone.
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Setting Up the Development Environment](#setting-up-the-development-environment)
-4. [Guidelines for Contributions](#guidelines-for-contributions)
-5. [How to Contribute](#how-to-contribute)
-6. [Code of Conduct](#code-of-conduct)
-7. [Reporting Issues](#reporting-issues)
-8. [Contact Information](#contact-information)
-9. [License Information](#license-information)
-10. [Acknowledgment and Thank You](#acknowledgment-and-thank-you)
-
 ## 1. Introduction
 
 Thank you for considering contributing to dividend-frontend! This document outlines the guidelines and steps to help you get started with contributing to our project.
 
-## 2. Prerequisites
-
-Before you start contributing, please ensure that you meet the following prerequisites:
-
-- [Specify any prerequisites or requirements here, e.g., specific programming languages, tools, or dependencies]
-
-## 3. Setting Up the Development Environment
-
-To set up your development environment for dividend-frontend, follow these steps:
-
-1. [Provide step-by-step instructions for setting up the environment]
-2. [Include any configuration or setup required]
-
-## 4. Guidelines for Contributions
-
-We value high-quality contributions. Please adhere to the following guidelines when making contributions:
-
-- [Specify coding standards, formatting rules, and any conventions]
-- [Explain the commit message format and the use of conventions like conventional commits]
-- [Detail the code review process and expectations]
-- [Mention testing requirements and how to run tests]
-
-## 5. How to Contribute
+## 2. How to Contribute
 
 Contributing to dividend-frontend is a straightforward process. Here's how you can get started:
 
