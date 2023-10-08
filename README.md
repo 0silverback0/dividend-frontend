@@ -1,3 +1,45 @@
+# Contributing to Dividend Stock Analysis Front-End App
+
+Welcome to the Dividend Stock Analysis Front-End App! This project is part of Hacktoberfest, and we're excited to have you on board.
+
+## Project Overview
+
+The Dividend Stock Analysis Front-End App is a React-based web application designed for analyzing dividend-paying stocks. It provides users with tools and insights to make informed investment decisions.
+
+### Features
+
+- Feature 1: Describe a key feature of your app.
+- Feature 2: Highlight another significant feature.
+- Feature 3: Mention any additional functionalities.
+
+### Technologies Used
+
+- React
+- Bootstrap (or any other relevant libraries)
+- [List any other technologies or APIs used]
+
+## Getting Started
+
+To contribute to the project, follow these steps:
+
+1. **Fork the repository:** Click the "Fork" button at the top right corner of this repository's page. This will create a copy of the repository under your GitHub account.
+
+2. **Clone your forked repository:** After forking, you'll have your own copy of the repository under your account. Clone it to your local machine using the following command:
+
+   ```sh
+   git clone https://github.com/yourusername/dividend-frontend.git
+   cd dividend-frontend
+
+3. **Instal Dependencies:**
+- npm install
+
+4. **Start the Development Server:**
+- npm start
+
+5. **View Page:**
+- go to http://localhost:3000
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
