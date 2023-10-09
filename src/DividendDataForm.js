@@ -12,7 +12,7 @@ function DividendDataForm() {
     setLoading(true);
 
     try {
-      const response = await axios.get('http://marz.pythonanywhere.com//api/get-dividend-history/', {
+      const response = await axios.get('http://marz.pythonanywhere.com/api/get-dividend-history/', {
         params: { symbols: symbols.split(',') },
       });
 
