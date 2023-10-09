@@ -53,10 +53,7 @@ function App() {
       <Header />
       <Router>
         <Routes>
-          {/* Define the route for DividendDataPage */}
-          <Route path="/m" element={<DividendDataPage />} />
-
-          {/* Define the default route */}
+          <Route path="/multiple" element={<DividendDataPage />} />
           <Route
             path='/'
             element={
