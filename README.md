@@ -1,3 +1,5 @@
+![logo](https://github.com/krishnapatidar458/hacktoberfest2023/assets/103871719/47e3a67d-ec2a-4874-8ff2-e164324f1170)
+
 # Contributing to Dividend Stock Analysis Front-End App
 
 Welcome to the Dividend Stock Analysis Front-End App! This project is part of Hacktoberfest, and we're excited to have you on board.
