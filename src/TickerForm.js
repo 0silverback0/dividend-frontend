@@ -15,7 +15,7 @@ function TickerForm({ onDataReceived }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get(`http://marz.pythonanywhere.com/api/dividend-data/?symbol=${symbol}`);
+      const response = await axios.get(`marz.pythonanywhere.com/api/dividend-data/?symbol=${symbol}`);
       const responseData = response.data;
       setData(responseData);
     } catch (error) {
