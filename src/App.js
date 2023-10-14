@@ -19,7 +19,7 @@ function App() {
       <Router>
       <Header />
         <Routes>
-          <Route path="/m" element={<DividendDataPage />} />
+          <Route path="/https://adorable-salmiakki-eef33b.netlify.app/m" element={<DividendDataPage />} />
           <Route path='/'element={
               <div>
                 <TickerForm onDataReceived={onDataReceived} />
